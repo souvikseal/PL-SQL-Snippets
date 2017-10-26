@@ -25,7 +25,7 @@ Procedure proc_main IS
 BEGIN
   FOR rec in cur
       LOOP
-        DBMS_OUTPUT.PUT_LINE(CREATE_TABLE_STMT_GENERATOR(rec.table_name,'CAAL_JUNIT'));
+        DBMS_OUTPUT.PUT_LINE(CREATE_TABLE_STMT_GENERATOR(rec.table_name,'SAMPLE_USER'));
       END LOOP;
 END;
    BEGIN
